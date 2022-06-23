@@ -64,3 +64,24 @@ else { prompt("ingrese respuesta valida")}
 
 
 let mensaje = prompt ("Dejanos tu consulta")
+
+const formulario = document.querySelector('#my-form')
+const inputNombre = document.querySelector('#input-nombre')
+const inputCel = document.querySelector('#input-cel')
+const inputMail = document.querySelector('#input-mail')
+const inputAmbiente = document.querySelector('#input-ambientes')
+const inputMensaje = document.querySelector('#input-mensaje')
+const btnEnviar = document.querySelector('#btn-enviar')
+
+
+
+formulario.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    console.log("submit del form")
+    console.log(inputNombre.value)
+    console.log(inputCel.value)
+    console.log(inputMail.value)
+    console.log(inputAmbiente.value)
+    console.log(inputMensaje.value)
+ }

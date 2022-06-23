@@ -58,18 +58,18 @@
       <div class="card-body">
         <article class="contacto">
       
-     <form class="form px-4 col-md-6 " >
+     <form id="my-form" class="form px-4 col-md-6 " >
         <div class="form-group">
           <h5>Contactanos y calcula el costo de tu proyecto</h5>
-         <label for="nombre" class="form-label">Nombre y apellido*</label>
+         <label for="nombre" id="input-nombre" class="form-label">Nombre y apellido*</label>
          <input type="text" class="form-control mb-2" placeholder="Tu nombre y apellido">
        </div>
        <div class="form-group">
-         <label for="number" class="form-label">Celular*</label>
+         <label for="number" id="input-cel" class="form-label">Celular*</label>
          <input type="phone" class="form-control mb-2" placeholder="Tu celular">
        </div>
        <div class="form-group">
-         <label for="email" class="form-label">Mail*</label>
+         <label for="email" id="input-mail" class="form-label">Mail*</label>
          <input type="email" class="form-control mb-2" placeholder="TuMail@example.com">
        </div>
        <div class="mb-3 form-check">
@@ -77,14 +77,14 @@
         <label class="form-check-label mb-2" for="newsletter">Suscribirme al newsletter</label>
        </div>
        <div class="form-group">
-         <label for="email" class="form-label">Ambientes a diseñar*</label>
+         <label for="email" id="input-ambientes" class="form-label">Ambientes a diseñar*</label>
          <input type="email" class="form-control mb-2" placeholder="1/2/3/...">
        </div>
        <div class="form-group pb-2">
-         <label for="text" class="form-label">Mensaje*</label>
+         <label for="text" id="input-mensaje" class="form-label">Mensaje*</label>
          <textarea class="form-control mb-2" placeholder="Dejanos tu consulta" rows="4"></textarea>
        </div>
-       <button type="button" class="btn btn-secondary btn-lg align-bottom mb-4">ENVIAR</button>
+       <button type="button" id="btn-enviar" class="btn btn-secondary btn-lg align-bottom mb-4">ENVIAR</button>
      </form>
 
 </article>
