@@ -75,7 +75,7 @@ const btnEnviar = document.querySelector('#btn-enviar')
 
 
 
-formulario.addEventListener('submit', (e) => {
+formulario.addEventListener('click', (e) => {
     e.preventDefault()
 
     console.log("submit del form")
